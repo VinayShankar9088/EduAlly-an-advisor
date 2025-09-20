@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDFs for Guidance</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background:  rgba(78, 142, 233, 0.7);
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Dashboard Button */
+    .top-bar {
+      padding: 15px 20px;
+    }
+
+    .back-btn {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #0858d1;
+      font-weight: bold;
+    }
+
+    /* .back-btn:hover {
+      text-decoration: underline;
+    } */
+
+    /* PDF List */
+    .pdf-list {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .pdf-item {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.2s;
+    }
+
+    .pdf-item:hover {
+      transform: scale(1.02);
+    }
+
+    .pdf-logo {
+      width: 60px;
+      margin-right: 20px;
+    }
+
+    .pdf-details {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .open-btn {
+      padding: 6px 12px;
+      border: 1px solid #0858d1;
+      background: none;
+      color: #0858d1;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .open-btn:hover {
+      background: #0858d1;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Dashboard Back Button -->
+<div class="top-bar">
+  <a href="/dashboard/dashboard.html" class="back-btn">← Dashboard</a>
+</div>
+
+
+  <div class="pdf-list">
+    <!-- PDF_01 -->
+    <div class="pdf-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="pdf-logo">
+      <div class="pdf-details">
+        <h3>After 10th class_01</h3>
+        <a href="../pdfs/pdf1.pdf" target="_blank"><button class="open-btn">Open</button></a>
+      </div>
+    </div>
+        <!-- PDF_01 -->
+    <div class="pdf-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="pdf-logo">
+      <div class="pdf-details">
+        <h3>After 10th class_02</h3>
+        <a href="../pdfs/pdf2.pdf" target="_blank"><button class="open-btn">Open</button></a>
+      </div>
+    </div>
+</body>
+
+</html>

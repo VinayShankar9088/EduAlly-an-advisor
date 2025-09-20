@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos for Guidance</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: rgba(78, 142, 233, 0.7);
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Dashboard Button */
+    .top-bar {
+      padding: 15px 20px;
+    }
+
+    .back-btn {
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #0858d1;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back-btn:hover {
+      text-decoration: underline;
+    }
+
+    /* Video List */
+    .video-list {
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .video-item {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.2s;
+    }
+
+    .video-item:hover {
+      transform: scale(1.02);
+    }
+
+    .video-logo {
+      width: 50px;
+      margin-right: 20px;
+    }
+
+    .video-details {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .video-details h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .open-btn {
+      padding: 6px 12px;
+      border: 1px solid #0858d1;
+      background: none;
+      color: #0858d1;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .open-btn:hover {
+      background: #0858d1;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Dashboard Back Button -->
+  <div class="top-bar">
+    <a href="/dashboard/dashboard.html" class="back-btn">← Dashboard</a>
+  </div>
+
+  <div class="video-list">
+    <!-- Video 1 -->
+    <div class="video-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Video" class="video-logo">
+      <div class="video-details">
+        <h3>What to do after 12th</h3>
+        <a href="https://www.youtube.com/watch?v=BvCCLk-R-4w" target="_blank">
+          <button class="open-btn">Watch</button>
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
